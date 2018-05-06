@@ -1,0 +1,8 @@
+---
+ - name: Install Python 3.6
+   raw: "pkg_add python-3.6.4p0"
+   args:
+     creates: /usr/local/bin/python3.6
+   tags:
+     - install-python
+     - init

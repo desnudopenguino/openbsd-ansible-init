@@ -1,0 +1,6 @@
+---
+ - name: Initial Configuration for OpenBSD
+   hosts: host
+   gather_facts: false
+   roles:
+     - init
